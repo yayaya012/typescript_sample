@@ -17,7 +17,6 @@
     "@typescript-eslint/parser": "^5.59.11",
     "eslint": "7.16",
     "eslint-config-prettier": "7.1",
-    "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "ts-loader": "^9.4.3",
@@ -32,5 +31,8 @@
     ],
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "husky": "^4.3.8"
   }
 }
